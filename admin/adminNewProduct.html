@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>newproductpage</title>
+        <link href='C:\Users\GURU BALAJIE\Desktop\css\newproductpage.css' rel='stylesheet'>
+        <link rel="icon" type="image/x-icon" href="C:\Users\GURU BALAJIE\Downloads\MKCE KR LOGO.png">
+
+    </head>
+    <body>
+        <h2 id="hd2" name="hd2">NEW PRODUCT</h2>
+        <br>
+        <div>
+            <label>System company</label>
+            <select required>
+                <option value="Select Company">Select Company</option>
+                <option value="HP">HP</option>
+                <option value="DELL">DELL</option>
+                <option value="HCL">HCL</option>
+                <option value="Lenovo">Lenovo</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Product</label>
+            <select required>
+                <option value="Select Product">Select Product</option>
+                <option value="Computer">Computer</option>
+                <option value="CPU">CPU</option>
+                <option value="Mouse">Mouse</option>
+                <option value="Keyboard">Keyboard</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>System Serial Number</label>
+            <input type="text" name="serialnumber" placeholder="Enter serial number">
+        </div>
+        <br>
+        <div>
+            <label >Date of Purchase</label>
+            <input type="date" name="purchase date" required>
+        </div>
+        <br>    
+        <div>
+            <label>Supplier</label>
+            <input type="text" name="supplier name" placeholder="Enter supplier name">
+        </div>
+        <br>
+        <div>
+            <label>HardDisk Size</label>
+            <input type="number" name="hddsize" placeholder="HDD Size">
+            <select>
+                <option value="GB">GB</option>
+                <option value="GB">TB</option>
+                <option value="GB">MB</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>HardDisk type</label>
+            <input type="checkbox" value="HDD" name="HDD" > HDD
+            <input type="checkbox" value="SDD" name="SDD"> SDD
+            <input type="checkbox" value="SATA" name="SATA"> SATA      
+        </div>
+        <br>
+        <div>
+            <label>RAM</label>
+            <input type="number" name="RAMsize" placeholder="RAM size">
+
+            <select>
+                <option value="GB">GB</option>
+                <option value="GB">MB</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Operating System (OS)</label>
+            <select>
+                <option value="Select OS">Select OS</option>
+                <option value="Windows 7">Windows 7</option>
+                <option value="Windows 8">Windows 8</option>
+                <option value="Windows 10">Windows 10</option>
+                <option value="Windows 11">Windows 11</option>
+                <option value="Linux">Linux</option>
+                <option value="Ubuntu">Ubuntu</option>
+            </select>
+        </div>
+        <br><br>
+        <input type="button" value="Add Product" name="addproduct" id="addproduct">
+
+    </body>
+</html>

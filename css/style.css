@@ -1,0 +1,81 @@
+body  
+{
+    
+    margin: 0;  
+    padding: 0;  
+    font-family: 'Arial';
+    background-image: url(https://a.rgbimg.com/users/f/fa/fangol/600/n1mtIpU.jpg);  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}   
+.login{
+         
+        width: 372px;  
+        overflow:hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background :rgb(148, 169, 166);  
+        
+        border-radius: 15px ;  
+          
+}  
+.h2{  
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    text-align: center;  
+    color: #ffffff;  
+    padding: 20px;
+    font-size: x-large;
+    border-color: blueviolet;  
+}  
+label{  
+    color: #ffffff;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 27px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 3); 
+    border-color: black;
+    
+  
+  
+}  
+#For{
+    
+    width: 170px;  
+    height: 30px;
+    text-align: center;
+    border-radius: 17px;
+    text-justify: auto;
+}
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}

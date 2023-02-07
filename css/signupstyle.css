@@ -1,0 +1,71 @@
+body  
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWUVQTw1dDz_yag0F9mbmMS1ACFA5n_h4OsA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}  
+.signup{
+         
+    width: 262px;
+    height: 390px;  
+    overflow:hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 30px;  
+    background: #ee0fab;  
+    border-radius: 15px ;  
+      
+}  
+h1{
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+.signup{
+    width: 372px;  
+    overflow:hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #6f9297;  
+    border-radius: 15px ;  
+}
+label{  
+    color: #ffffff;  
+    font-size: 17px;  
+}
+.fname{
+    width: 300px;
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+}
+#up{
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 17px;  
+    padding-left: 7px;
+    color: rgb(0, 0, 3);
+    
+}
+#res{
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 17px;  
+    padding-left: 7px;
+    color: rgb(0, 0, 3);  
+}
+
